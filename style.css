@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*----------------header----------------*/
+
+header > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+
+.header-container img{
+    width: 100%;
+    position: relative;
+}
+
+/*----------------navigation----------------*/
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight:bold;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav ul li > a{
+    text-decoration: none;
+    color: rgb(38, 135, 127) ;
+    font-size: large;
+}
+
+nav ul li > a:hover{
+    color: brown;
+}
+
+.active{
+    color: brown;
+}
+
+/*----------------main----------------*/
+main section > img{
+    width: 100%;
+    height: auto;
+    position:relative;
+}
+
+main section > div{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top:50%;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: left;
+    left:10%;
+
+}
+
+main section > div p{
+    color: rgb(38, 135, 127) ;
+    font-size: 30px;
+}
+
+main section > div > .offer-btn{
+    display: inline-block;
+    padding: 10px 100px;
+    background-color:brown;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main section > div >.offer-btn:hover{
+    color: white;
+    background-color: rgb(38, 135, 127) ;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.top-gap{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+article{
+    position: relative;
+    margin-left: 20px;
+    border: 1px solid rgb(38, 135, 127) ;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(38, 135, 127) ;
+  }
+  
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 33px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.link-btn{
+    display: inline-block;
+    margin-top: 90%;
+    padding: 10px 50px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(38, 135, 127) ;
+    font-weight: bold;
+}
+
+.link-btn:hover{
+    color: white;
+    background-color: brown;
+
+}
+
+.heading-text{
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(38, 135, 127) ;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgb(38, 135, 127) ;
+    text-align: center;
+}
+
+article:hover{
+    box-shadow: 2px 1px 10px black;
+}
+
+article:first-child{
+    margin-left: 0;
+}
+
+article h1{
+    background-color: rgb(38, 135, 127) ;
+    color: white;
+    padding: 40px;
+}
+
+/*----------------footer----------------*/
+footer{
+    display: flex;
+    background-color:brown ;
+    align-content: flex-end;
+    margin-top: 50px;
+}
+
+footer > div > img{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+footer > div{
+    flex: 1;
+    color: white;
+    padding: 50px;
+
+}
+
+.social i{
+    color: white;
+}
+
+
